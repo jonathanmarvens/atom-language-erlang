@@ -1,0 +1,10 @@
+{
+  "description": "Erlang language support for Atom.",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "license": "MIT",
+  "name": "language-erlang",
+  "repository": "https://github.com/jonathanmarvens/atom-language-erlang",
+  "version": "0.0.0"
+}
