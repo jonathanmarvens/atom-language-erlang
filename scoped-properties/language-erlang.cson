@@ -1,6 +1,6 @@
 '.source.erlang':
   'editor':
-    'commentStart': '# '
+    'commentStart': '% '
     'increaseIndentPattern': '^[^%]*(\\b(if|case|receive|after|fun|try|catch|begin|query)\\b(?!.*\\b(end)\\b.*))|(->(\\s*%.*)?$)'
     'decreaseIndentPattern': '^\\s*\\b(end)\\b'
 '.text.html.erlang.yaws':
