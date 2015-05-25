@@ -1,7 +1,7 @@
 {
   "description": "Erlang language support for Atom.",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.185.0 <2.0.0"
   },
   "license": "MIT",
   "name": "language-erlang",
