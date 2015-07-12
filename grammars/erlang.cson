@@ -2,6 +2,7 @@
 'fileTypes': [
   'erl'
   'hrl'
+  'escript'
 ]
 'name': 'Erlang'
 'patterns': [
