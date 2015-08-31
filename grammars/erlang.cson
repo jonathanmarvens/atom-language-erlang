@@ -2,6 +2,8 @@
 'fileTypes': [
   'erl'
   'hrl'
+  'xrl'
+  'yrl'
 ]
 'name': 'Erlang'
 'patterns': [
