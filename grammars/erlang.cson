@@ -3,6 +3,7 @@
   'erl'
   'hrl'
 ]
+'firstLineMatch': '^#!.*\\b(escript)'
 'name': 'Erlang'
 'patterns': [
   {
