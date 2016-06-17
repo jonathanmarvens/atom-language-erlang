@@ -3,8 +3,12 @@
   'erl'
   'hrl'
 ]
+'firstLineMatch': '^#!.*\\b(escript)'
 'name': 'Erlang'
 'patterns': [
+  {
+    'include': '#shebang'
+  }
   {
     'include': '#module-directive'
   }
@@ -1213,6 +1217,9 @@
         ]
       }
     ]
+  'shebang':
+    'match': '\\A#!.*$'
+    'name': 'comment.line.shebang.erlang'
   'string':
     'begin': '(")'
     'beginCaptures':
