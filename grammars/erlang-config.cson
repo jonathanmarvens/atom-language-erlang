@@ -1,0 +1,14 @@
+'fileTypes': [
+  'config',
+  'rel',
+  'script',
+  'app',
+  'app.src'
+]
+'name': 'Erlang Config File (Erlang Term File)'
+'patterns': [
+  {
+    'include': 'source.erlang'
+  }
+]
+'scopeName': 'source.erlang.config'

@@ -2,6 +2,7 @@
 'fileTypes': [
   'erl'
   'hrl'
+  'escript'
 ]
 'firstLineMatch': '^#!.*\\b(escript)'
 'name': 'Erlang'
