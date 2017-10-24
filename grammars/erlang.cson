@@ -1289,7 +1289,7 @@
       }
     ]
   'symbolic-operator':
-    'match': '\\+\\+|\\+|--|-|\\*|/=|/|=/=|=:=|==|=<|=|<-|<|>=|>|!|::'
+    'match': '\\+\\+|\\+|--|->|-|\\*|/=|/|=/=|=:=|==|=<|=|<-|<|>=|>|!|::'
     'name': 'keyword.operator.symbolic.erlang'
   'textual-operator':
     'match': '\\b(andalso|band|and|bxor|xor|bor|orelse|or|bnot|not|bsl|bsr|div|rem)\\b'
