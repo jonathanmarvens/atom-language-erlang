@@ -300,6 +300,9 @@
         'include': '#function-call'
       }
       {
+        'include': '#function-punctuation'
+      }
+      {
         'include': '#tuple'
       }
       {
@@ -575,6 +578,11 @@
         ]
       }
     ]
+  'function-punctuation':
+    'captures':
+      '1':
+        'name': 'punctuation.separator.function-punctuation-head-body.erlang'
+    'match': '(->)'
   'import-export-directive':
     'patterns': [
       {
