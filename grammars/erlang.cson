@@ -37,9 +37,6 @@
     'include': '#function'
   }
   {
-    'include': '#operators'
-  }
-  {
     'include': '#everything-else'
   }
 ]
@@ -301,6 +298,9 @@
       }
       {
         'include': '#function-call'
+      }
+      {
+        'include': '#function-punctuation'
       }
       {
         'include': '#tuple'
@@ -582,6 +582,11 @@
         ]
       }
     ]
+  'function-punctuation':
+    'captures':
+      '1':
+        'name': 'punctuation.separator.function-punctuation-head-body.erlang'
+    'match': '(->)'
   'import-export-directive':
     'patterns': [
       {
@@ -795,7 +800,7 @@
     'name': 'meta.structure.list.erlang'
     'patterns': [
       {
-        'match': '\\||\\|\\||,'
+        'match': '\\|\\||\\||,'
         'name': 'punctuation.separator.list.erlang'
       }
       {
@@ -1230,12 +1235,6 @@
   'shebang':
     'match': '\\A#!.*$'
     'name': 'comment.line.shebang.erlang'
-  'operators':
-    'patterns':[
-      'match': '<<|>>>|>>|->'
-      'name': 'keyword.operator.function.separator.erlang'
-    ]
-
   'string':
     'begin': '(")'
     'beginCaptures':
